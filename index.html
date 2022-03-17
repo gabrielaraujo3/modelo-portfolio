@@ -127,7 +127,7 @@
                         <h2>ToDo List</h2>
                         <h3>Javascript</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, esse consectetur ipsum consequuntur minima labore accusantium incidunt quibusdam neque iusto!</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
                 <div class="card">
@@ -138,7 +138,7 @@
                         <h2>Maratona</h2>
                         <h3>HTML, CSS</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id consequuntur nulla minima, aperiam expedita ex aliquam omnis illo perspiciatis maxime.</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
                 <div class="card">
@@ -149,12 +149,37 @@
                         <h2>Casa Bela</h2>
                         <h3>HTML</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel eos dolores animi doloribus earum, id quas doloremque totam ut.</p>
-                        <button>Saiba Mais</button>
+                        <button class="btn">Saiba Mais</button>
                     </div>
                 </div>
             </div>
             
         </section>
+
+        <section class="sessao-contato">
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>
+                <div class="contato-right">
+                    <h1>Contato</h1>
+                    <form class="form">
+                        <div class="input-group">
+                            <input type="text" class="field" id="nome" required>
+                            <label for="nome" class="field-label">Nome</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="field" id="email" required>
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="field" id="mensagem" required></textarea>
+                            <label for="mensagem" class="field-label">Mensagem</label>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
     </div>
 </body>
     <script src="script.js"></script>
