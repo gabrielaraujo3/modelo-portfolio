@@ -561,6 +561,7 @@ header {
     grid-template-columns: auto 1fr;
     column-gap: 2rem;
     padding-top: 1.3rem;
+    height: 100%;
 }
 
 .sessao-orcamento label {
@@ -641,7 +642,7 @@ footer {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 900px) {
     .hamburguer {
         /*background-color: red;*/
         width: 1.4rem;
@@ -867,7 +868,7 @@ footer {
     .orcamento-wrapper {
         margin-top: 2.5rem;
         width: 90%;
-        height: 80%;
+        height: 50%;
         background-color: #ffffff99;
         border-radius: 10px;
         box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, .5);
@@ -894,6 +895,7 @@ footer {
         margin: 2rem;
         column-gap: 0;
         padding-top: 0;
+        height: auto;
     }
 
     .sessao-orcamento label {
