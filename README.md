@@ -1,6 +1,7 @@
 # modelo_portfolio
 
- Apresentação do desenvolvedor
+ Modelo de página para apresentação de um desenvolvedor
+ 
 
 ## Tarefas
 
